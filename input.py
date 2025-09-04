@@ -39,5 +39,5 @@ print(f"debt: {debt/net_monthly_income: .2%}")
 
 # add all expenses then subract the remaining balance
 total= housing+utilities+groceries+transportation+health_care+personal_care+personal_care+clothing+debt
-print(f"Money left: {net_monthly_income-total:.2$}")
-print(f"total: {total:.2$}")
+print(f"Money left: {net_monthly_income-total:.2f}")
+print(f"total: {total:.2f}")
